@@ -1,0 +1,205 @@
+#main-header {
+	background: rgb(10, 10, 10);
+	/* color: white; */
+	height: 80px;	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+#img1
+{
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 30px;
+    height: 40px;
+    transform: translate(25px, -66px);
+}
+#titulo
+{
+    transform: translate(80px, -7px);
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+}
+#titulo:hover {
+    color: #0b76a6;
+}
+.container{
+    margin: 45px;
+}
+
+.rectangulo1
+{
+    position: absolute;
+    margin: 100px 0px 0px 0px;
+    height: 250px;
+    width: 350px;
+    border: 1px solid #e7b8b8;
+    background-color: #038046;
+    z-index: 1;
+    opacity: 30%;
+    border-radius: 5%;
+}
+.rectangulo1:hover{
+    transition-delay: 0.5s,0.5s,0.5s,0.5s;
+    z-index: 1;
+    transform: translateX(10%)translateY(10%);
+    padding: 10px 10px 10px;
+    border: 1px solid #fa0eb3;
+    background-color: #ee0bc8;
+}
+.rectangulo2
+{
+    position: absolute;
+    margin: 150px 0px 500px 60px;
+    height: 250px;
+    width: 350px;
+    border: 1px solid #b2c9eb;
+    background-color: #f1ee17;
+    z-index: 1;
+    opacity: 40%;
+    border-radius: 5%;
+}
+.rectangulo2:hover{
+    transition-delay: 0.4s,0.4s,0.4s,0.4s;
+    z-index: 1;
+    transform: translateX(10%)translateY(10%);
+    padding: 10px 10px 10px;
+    border: 1px solid #053692;
+    background-color: #0b0fee;
+}
+
+.rectangulo3
+{
+    position: absolute;
+    margin: 200px 0px 700px 120px;
+    height: 250px;
+    width: 350px;
+    border: 1px solid #c7d8f0;
+    background-color: #a50808;
+    z-index: 1;
+    opacity: 40%;
+    border-radius: 5%;
+}
+.rectangulo3:hover{
+    transition-delay: 0.3s,0.3s,0.3s,0.3s;
+    z-index: 1;
+    transform: translateX(10%)translateY(10%);
+    padding: 10px 10px 10px;
+    border: 1px solid #13b9c5;
+    background-color: #0cb3c9;
+}
+
+.rectangulo .circle1{
+    position: absolute;
+    margin: 240px 0px 700px 200px;
+    height: 180px;
+    width: 180px;
+    border: 1px solid #050505;
+    background-color: #fff9f9;
+    z-index: 2;
+    opacity: 100%;
+    border-radius: 50%;
+}
+.rectangulo .circle1:hover{
+    transition-delay: 0.5s,0.5s,0.5s,0.5s;
+    z-index: 1;
+    transform: translateX(0%)translateY(0%);
+    padding: 0px 0px 0px;
+    border: 1px solid #f3f5fa;
+    background-color: #000000;
+}
+
+.rectangulo .circle2{
+    position: absolute;
+    margin: 260px 0px 700px 220px;
+    height: 140px;
+    width: 140px;
+    border: 1px solid #f8f7fc;
+    background-color: #070707;
+    z-index: 2;
+    opacity: 100%;
+    border-radius: 50%;
+}
+.rectangulo .circle2:hover{
+    transition-delay: 0.5s,0.5s,0.5s,0.5s;
+    z-index: 2;
+    transform: translateX(0%)translateY(0%);
+    padding: 0px 0px 0px;
+    border: 1px solid #080808;
+    background-color: #f8f5f5;
+}
+.rectangulo .circle3{
+    position: absolute;
+    margin: 280px 0px 700px 240px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #0d0d0e;
+    background-color: #f3f9fa;
+    z-index: 3;
+    opacity: 100%;
+    border-radius: 50%;
+}
+.rectangulo .circle3:hover{
+    transition-delay: 0.5s,0.5s,0.5s,0.5s;
+    z-index: 3;
+    transform: translateX(0%)translateY(0%);
+    padding: 0px 0px 0px;
+    border: 1px solid #ffffff;
+    background-color: #050505;
+}
+.rectangulo .circle4{
+    position: absolute;
+    margin: 300px 0px 700px 260px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #fffcfc;
+    background-color: #050505;
+    z-index: 4;
+    opacity: 100%;
+    border-radius: 50%;
+}
+.rectangulo .circle4:hover{
+    transition-delay: 0.5s,0.5s,0.5s,0.5s;
+    z-index: 4;
+    transform: translateX(0%)translateY(0%);
+    padding: 0px 0px 0px;
+    border: 1px solid #0a0a0a;
+    background-color: #fcf9f9;
+}
+
+.rectangulo #img2
+{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    transform: translate(250px, 300px);
+    z-index: 9;
+    opacity: 100%;
+}
+
+/* footer
+{
+    margin: 690px 0px 0px 0px;
+    padding: 0PX 0PX 0PX 100PX;
+    background-color: #b4b4b4;
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    height: 200px;
+    width:100vw ;
+    position:fixed;
+}
+ */
+
+
+footer {
+    margin: 550px px 0px 0px;
+    background-color: #868383;
+    color: #195892;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+} 
