@@ -23,7 +23,7 @@
     color: white; 
 }
 #titulo:hover {
-    color: #0b76a6;
+    color: #0eeeee;
 }
 .container{
     margin: 45px;
@@ -168,20 +168,34 @@
     border: 1px solid #0a0a0a;
     background-color: #fcf9f9;
 }
+.rectangulo .cuadrado{
+    position: absolute;
+    margin: 311px 0px 700px 272px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #ffffff;
+    background: linear-gradient(90deg, rgb(12, 11, 11) 4%, rgb(125, 121, 126) 53%, rgb(3, 3, 3) 97%);
+    z-index: 5;
+    opacity: 100%;
+    border-radius: 0%;
+}
+
+
 
 .rectangulo #img2
 {
+    /* position: absolute;
+    top: 25px;
+    left: 25px; */
     display: flex;
     justify-content: center;
-    width: 30px;
-    height: 40px;
-    transform: translate(250px, 300px);
-    z-index: 9;
-    opacity: 100%;
+    width: 60px;
+    height: 60px;
+    transform: translate(300px, 260px);
 }
 
 footer {
-    margin: 645px 0 0 0;
+    margin: 626px 0 0 0;
     background-color: #e0e0e0;
     border-color: #ffffff;
     border-style: solid;
